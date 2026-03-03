@@ -29,7 +29,7 @@ Due to initial data caching, if you encounter any anomalies during the first run
 
 ## 1. Basic Parameters
 GoalThreshold = 30;            % Set goal threshold
-Delta = 10;                    % Set expansion step size
+Delta = 10;                     % Set expansion step size
 RadiusForNeib = 40;            % Rewiring range, radius r
 MaxIterations = 2500;          % Maximum number of iterations
 
