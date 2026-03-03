@@ -1,9 +1,9 @@
-# PC-RRT*(Planar Constraint RRT*)
+# PC-RRT* (Planar Constraint RRT*)
 The proposed planner, PC-RRT*, is an evolution of the RRT* algorithm.
 In most scenarios, the PC-RRT* algorithm exhibits substantial improvements in path length, node efficiency, and path smoothness.
 
 # Project Introduction
-PC-RRT* transforms a 3D path planning problem into a series of planar path planning problems on multiple planes rotated around an axis determined by the start and goal points.
+PC-RRT* transforms a 3D path planning problem into a series of planar path planning problems on multiple planes rotated around an axis connecting the start and goal points.
 
 # Software Requirements
 MATLAB R2016a or later.
@@ -11,12 +11,9 @@ MATLAB R2016a or later.
 # File Structure
 |Filename|Description|
 |-|-|
-|main9.m|Main program entry for obstacle environment 1|
-|main9_1.m|Main entry for environment 1 (unfitted and fitted curves in separate figures)|
-|main9_2.m|Main entry for environment 1 (unfitted and fitted curves in the same figure)|
-|main12.m|Main program entry for obstacle environment 2|
-|main12_1.m|Main entry for environment 2 (unfitted and fitted curves in separate figures)|
-|main12_2.m|Main entry for environment 2 (unfitted and fitted curves in the same figure)|
+|main12.m|Main program entry|
+|main12_1.m|Main program entry (unfitted and fitted curves in separate figures)|
+|main12_2.m|Main program entry (unfitted and fitted curves in the same figure)|
 |checkpath3.m|3D path collision detection (spherical obstacles)|
 |feasiblepoint3.m|3D path collision detection (cuboid obstacles)|
 |README.md|Documentation|
@@ -24,7 +21,9 @@ MATLAB R2016a or later.
 # Quick Start
 Clone this repository on a Windows system that has MATLAB installed.
 Open this project folder with MATLAB R2016a.
-Execute the main script main9 or main12.
+Execute the main script main12.
+
+Due to initial data caching, if you encounter any anomalies during the first run, simply restart the program.
 
 # Parameter Settings
 
