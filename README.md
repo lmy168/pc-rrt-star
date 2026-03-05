@@ -23,7 +23,7 @@ Clone this repository on a Windows system that has MATLAB installed.
 Open this project folder with MATLAB R2016a.
 Execute the main script main12.
 
-Due to initial data caching, if you encounter any anomalies during the first run, simply restart the program.
+Due to initial data caching, if you encounter any anomalies during the first run, simply close the generated figure and run the main program again.
 
 # Parameter Settings
 
